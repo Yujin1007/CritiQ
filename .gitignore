@@ -206,19 +206,11 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-*.zip
+
 *.png
 *.mp4
-*.pickle
 *.pt
 #.pickle
 **/__pycache__/
 videos/
-logs/
-model_checkpoints/
-student_model/
-wandb/
-teacher_model/
-tensorboard/
-batch_txt/
-envs/scenes/scene_*
+buffer/*
