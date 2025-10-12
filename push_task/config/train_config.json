@@ -1,0 +1,14 @@
+{
+  "teacher_path": "saved_models/teacher_push.zip",
+  "save_path": "saved_models/train_01",
+  "buffer_path": "./buffer/buffer_1k.pkl",
+  "new_buffer_path": null,
+  "eval_its": 20,
+  "num_epoch": 100,
+  "num_cpu": 16,
+  "collect_data": false,
+  "collect_more_data": false,
+  "device": null,
+  "save_video": true 
+}
+
