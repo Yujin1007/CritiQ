@@ -27,7 +27,7 @@ User can download buffer to jumpstart training
 pip install gdown
 gdown "https://drive.google.com/file/d/1Zp6rZ2oKqkruvoAlegvdAVeKY0gUMFfX/view?usp=sharing" -O ./push_task/buffer/buffer_1k.pkl
 ```
-If you would prefer start training from collecting teacher demonstration, change config file in `CritiQ/push_task/config/train_config.json` into
+If you prefer starting training from collecting teacher demonstration, change config file in `CritiQ/push_task/config/train_config.json` into
 ```
 {
 ...
