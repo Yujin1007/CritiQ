@@ -22,7 +22,7 @@ git clone https://github.com/Yujin1007/CritiQ.git
 cd CritiQ
 python -m pip install -r requirements.txt
 ```
-You could download buffer to jumpstart training
+User can download buffer to jumpstart training
 ```
 pip install gdown
 gdown "https://drive.google.com/file/d/1Zp6rZ2oKqkruvoAlegvdAVeKY0gUMFfX/view?usp=sharing" -O ./push_task/buffer/buffer_1k.pkl
