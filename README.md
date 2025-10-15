@@ -1,17 +1,3 @@
-
-# Run training 
-in CritiQ, 
-./run_push_critiq.sh push_task/config/train_config.json 
-./test_push_critiq.sh push_task/config/test_config.json 
-
-# Download buffer
-
-
-# How to install 
-conda create -n critiq python=3.9.19 pip -y
-conda activate critiq
-python -m pip install -r requirements.txt
-
 # Distilling Realizable Students from Unrealizable Teachers
 
 Official implementation of CritiQ in pushing task-- a policy distillation under information assymetry
